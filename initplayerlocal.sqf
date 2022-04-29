@@ -4,3 +4,7 @@ if (didJIP) then {
 
 ["InitializePlayer", [player,true]] call BIS_fnc_dynamicGroups;
 grad_template_ratingEH = player addEventHandler ["HandleRating",{0}];
+
+if (_didJiP || didJiP) exitWith {};
+sleep 5;
+playMusic ["russia", 0];
