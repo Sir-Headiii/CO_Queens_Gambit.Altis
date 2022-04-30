@@ -20,6 +20,6 @@ waverespawntimeInd = 30;                                                        
 
 
 //NORMALER RESPAWN =============================================================
-respawntimeBlu = 10;                                                            //Respawnzeit Blufor in Sekunden
-respawntimeOpf = 10;                                                            //Respawnzeit Opfor in Sekunden
-respawntimeInd = 10;                                                            //Respawnzeit Independent in Sekunden
+respawntimeBlu = 30;                                                            //Respawnzeit Blufor in Sekunden
+respawntimeOpf = 30;                                                            //Respawnzeit Opfor in Sekunden
+respawntimeInd = 30;                                                            //Respawnzeit Independent in Sekunden
