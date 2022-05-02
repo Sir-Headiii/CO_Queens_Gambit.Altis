@@ -2,6 +2,7 @@
 *   Hier können eigene factions für grad-loadout eingetragen werden.
 *   Anleitung im Wiki.
 */
+
 class headiiiOpfor {
     class Type {
         class medic_F {
@@ -875,568 +876,560 @@ class headiiiOpfor {
     };
 };
 
-/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-
-
 class headiiiBlufor {
     class Type {
         class ION_TL_lxWS {
-                uniform = "U_lxWS_ION_Casual3";
-                vest = "V_CarrierRigKBT_01_light_Olive_F";
-                backpack = "gm_ge_backpack_sem35_oli";
-                headgear = "H_MilCap_grn";
-                primaryWeapon = "arifle_MSBS65_GL_black_F";
-                primaryWeaponMagazine = "30Rnd_65x39_caseless_msbs_mag";
-                primaryWeaponOptics = "optic_ico_01_black_f";
-                primaryWeaponPointer = "acc_pointer_IR";
-                primaryWeaponUnderbarrelMagazine = "1Rnd_HE_Grenade_shell";
-                handgunWeapon = "hgun_Pistol_heavy_01_F";
-                handgunWeaponMagazine = "11Rnd_45ACP_Mag";
-                handgunWeaponOptics = "optic_MRD";
-                binoculars = "Binocular";
-                map = "ItemMap";
-                compass = "ItemCompass";
-                watch = "ItemWatch";
-                gps = "ItemGPS";
-                radio = "ItemRadio";
-                nvgoggles = "";
-                addItemsToUniform[] = {
-                    LIST_4("ACE_quikclot"),
-                    LIST_4("ACE_packingBandage"),
-                    LIST_8("ACE_fieldDressing"),
-                    LIST_3("ACE_epinephrine"),
-                    LIST_1("ACE_MapTools")
-                };
-                addItemsToVest[] = {
-                    LIST_2("11Rnd_45ACP_Mag"),
-                    LIST_2("MiniGrenade"),
-                    LIST_2("SmokeShell"),
-                    LIST_1("SmokeShellBlue"),
-                    LIST_8("30Rnd_65x39_caseless_msbs_mag"),
-                    LIST_2("1Rnd_HE_Grenade_shell")
-                };
-                addItemsToBackpack[] = {
-                    LIST_1("1Rnd_HE_Grenade_shell"),
-                    LIST_4("1Rnd_SmokeGreen_Grenade_shell"),
-                    LIST_4("1Rnd_SmokeOrange_Grenade_shell"),
-                    LIST_4("1Rnd_SmokeRed_Grenade_shell"),
-                    LIST_8("1Rnd_Smoke_Grenade_shell")
-                };
-            };    
-            class ION_Soldier_lxWS {
-                uniform = "U_lxWS_ION_Casual1";
-                vest = "V_lxWS_PlateCarrier1_desert";
-                backpack = "";
-                headgear = "lxWS_H_CapB_rvs_blk_ION";
-                primaryWeapon = "arifle_MSBS65_black_F";
-                primaryWeaponMagazine = "30Rnd_65x39_caseless_msbs_mag";
-                primaryWeaponOptics = "optic_ico_01_black_f";
-                primaryWeaponPointer = "acc_pointer_IR";
-                handgunWeapon = "hgun_Pistol_heavy_01_F";
-                handgunWeaponMagazine = "11Rnd_45ACP_Mag";
-                handgunWeaponOptics = "optic_MRD";
-                binoculars = "Binocular";
-                map = "ItemMap";
-                compass = "ItemCompass";
-                watch = "ItemWatch";
-                gps = "ItemGPS";
-                radio = "ItemRadio";
-                nvgoggles = "";
-                addItemsToUniform[] = {
-                    LIST_4("ACE_quikclot"),
-                    LIST_4("ACE_packingBandage"),
-                    LIST_8("ACE_fieldDressing"),
-                    LIST_3("ACE_epinephrine"),
-                    LIST_1("ACE_EntrenchingTool"),
-                    LIST_1("ACE_MapTools"),
-                    LIST_3("ACE_morphine"),
-                    LIST_2("ACE_tourniquet"),
-                    LIST_1("ACE_splint"),
-                    LIST_2("ACE_CableTie")
-                };
-                addItemsToVest[] = {
-                    LIST_2("11Rnd_45ACP_Mag"),
-                    LIST_10("30Rnd_65x39_caseless_msbs_mag"),
-                    LIST_2("MiniGrenade"),
-                    LIST_2("SmokeShell"),
-                    LIST_1("SmokeShellBlue")
-                };
+            uniform = "U_lxWS_ION_Casual3";
+            vest = "V_CarrierRigKBT_01_light_Olive_F";
+            backpack = "gm_ge_backpack_sem35_oli";
+            headgear = "H_MilCap_grn";
+            primaryWeapon = "arifle_MSBS65_GL_black_F";
+            primaryWeaponMagazine = "30Rnd_65x39_caseless_msbs_mag";
+            primaryWeaponOptics = "optic_ico_01_black_f";
+            primaryWeaponPointer = "acc_pointer_IR";
+            primaryWeaponUnderbarrelMagazine = "1Rnd_HE_Grenade_shell";
+            handgunWeapon = "hgun_Pistol_heavy_01_F";
+            handgunWeaponMagazine = "11Rnd_45ACP_Mag";
+            handgunWeaponOptics = "optic_MRD";
+            binoculars = "Binocular";
+            map = "ItemMap";
+            compass = "ItemCompass";
+            watch = "ItemWatch";
+            gps = "ItemGPS";
+            radio = "ItemRadio";
+            nvgoggles = "";
+            addItemsToUniform[] = {
+                LIST_4("ACE_quikclot"),
+                LIST_4("ACE_packingBandage"),
+                LIST_8("ACE_fieldDressing"),
+                LIST_3("ACE_epinephrine"),
+                LIST_1("ACE_MapTools")
             };
-            class ION_Soldier_GL_lxWS {
-                uniform = "U_lxWS_ION_Casual1";
-                vest = "V_PlateCarrierGL_blk";
-                backpack = "";
-                headgear = "lxWS_H_PASGT_goggles_black_F";
-                primaryWeapon = "arifle_MSBS65_GL_black_F";
-                primaryWeaponMagazine = "30Rnd_65x39_caseless_msbs_mag";
-                primaryWeaponOptics = "optic_ico_01_black_f";
-                primaryWeaponPointer = "acc_pointer_IR";
-                primaryWeaponUnderbarrelMagazine = "1Rnd_HE_Grenade_shell";
-                handgunWeapon = "hgun_Pistol_heavy_01_F";
-                handgunWeaponMagazine = "11Rnd_45ACP_Mag";
-                handgunWeaponOptics = "optic_MRD";
-                binoculars = "Binocular";
-                map = "ItemMap";
-                compass = "ItemCompass";
-                watch = "ItemWatch";
-                gps = "ItemGPS";
-                radio = "ItemRadio";
-                nvgoggles = "";
-                addItemsToUniform[] = {
-                    LIST_4("ACE_quikclot"),
-                    LIST_4("ACE_packingBandage"),
-                    LIST_8("ACE_fieldDressing"),
-                    LIST_3("ACE_epinephrine"),
-                    LIST_1("ACE_EntrenchingTool"),
-                    LIST_1("ACE_MapTools"),
-                    LIST_3("ACE_morphine"),
-                    LIST_2("ACE_tourniquet"),
-                    LIST_1("ACE_splint"),
-                    LIST_2("ACE_CableTie")
-                };
-                addItemsToVest[] = {
-                    LIST_2("11Rnd_45ACP_Mag"),
-                    LIST_8("30Rnd_65x39_caseless_msbs_mag"),
-                    LIST_6("1Rnd_HE_Grenade_shell"),
-                    LIST_2("1Rnd_Smoke_Grenade_shell"),
-                    LIST_1("1Rnd_SmokeRed_Grenade_shell"),
-                    LIST_1("1Rnd_SmokeGreen_Grenade_shell"),
-                    LIST_1("1Rnd_SmokeBlue_Grenade_shell")
-                };
+            addItemsToVest[] = {
+                LIST_2("11Rnd_45ACP_Mag"),
+                LIST_2("MiniGrenade"),
+                LIST_2("SmokeShell"),
+                LIST_1("SmokeShellBlue"),
+                LIST_8("30Rnd_65x39_caseless_msbs_mag"),
+                LIST_2("1Rnd_HE_Grenade_shell")
             };
-            class ION_soldier_AR_lxWS {
-                uniform = "U_lxWS_ION_Casual2";
-                vest = "V_CarrierRigKBT_01_light_Olive_F";
-                backpack = "B_AssaultPack_wdl_F";
-                headgear = "H_Cap_blk_ION";
-                primaryWeapon = "LMG_Mk200_black_F";
-                primaryWeaponMagazine = "200Rnd_65x39_cased_Box";
-                primaryWeaponOptics = "optic_Holosight";
-                primaryWeaponPointer = "acc_pointer_IR";
-                primaryWeaponUnderbarrel = "bipod_01_F_blk";
-                handgunWeapon = "hgun_Pistol_heavy_01_F";
-                handgunWeaponMagazine = "11Rnd_45ACP_Mag";
-                handgunWeaponOptics = "optic_MRD";
-                binoculars = "Binocular";
-                map = "ItemMap";
-                compass = "ItemCompass";
-                watch = "ItemWatch";
-                gps = "ItemGPS";
-                radio = "ItemRadio";
-                nvgoggles = "";
-                addItemsToUniform[] = {
-                    LIST_4("ACE_quikclot"),
-                    LIST_4("ACE_packingBandage"),
-                    LIST_8("ACE_fieldDressing"),
-                    LIST_3("ACE_epinephrine"),
-                    LIST_1("ACE_EntrenchingTool"),
-                    LIST_1("ACE_MapTools"),
-                    LIST_3("ACE_morphine"),
-                    LIST_2("ACE_tourniquet"),
-                    LIST_1("ACE_splint"),
-                    LIST_2("ACE_CableTie")
-                };
-                addItemsToVest[] = {
-                    LIST_2("11Rnd_45ACP_Mag"),
-                    LIST_6("1Rnd_HE_Grenade_shell"),
-                    LIST_2("1Rnd_Smoke_Grenade_shell"),
-                    LIST_1("1Rnd_SmokeRed_Grenade_shell"),
-                    LIST_1("1Rnd_SmokeGreen_Grenade_shell"),
-                    LIST_1("1Rnd_SmokeBlue_Grenade_shell"),
-                    LIST_1("200Rnd_65x39_cased_Box"),
-                    LIST_2("SmokeShell"),
-                    LIST_2("MiniGrenade")
-                };
-                addItemsToBackpack[] = {
-                    LIST_3("200Rnd_65x39_cased_Box")
-                };
+            addItemsToBackpack[] = {
+                LIST_1("1Rnd_HE_Grenade_shell"),
+                LIST_4("1Rnd_SmokeGreen_Grenade_shell"),
+                LIST_4("1Rnd_SmokeOrange_Grenade_shell"),
+                LIST_4("1Rnd_SmokeRed_Grenade_shell"),
+                LIST_8("1Rnd_Smoke_Grenade_shell")
             };
-            class ION_medic_lxWS {
-                uniform = "U_lxWS_ION_Casual4";
-                vest = "V_TacVestIR_blk";
-                backpack = "grad_extras_kit_kitbag_sgg_medic";
-                headgear = "H_Cap_headphones";
-                primaryWeapon = "arifle_MSBS65_black_F";
-                primaryWeaponMagazine = "30Rnd_65x39_caseless_msbs_mag";
-                primaryWeaponOptics = "optic_ico_01_black_f";
-                primaryWeaponPointer = "acc_pointer_IR";
-                handgunWeapon = "hgun_Pistol_heavy_01_F";
-                handgunWeaponMagazine = "11Rnd_45ACP_Mag";
-                handgunWeaponOptics = "optic_MRD";
-                binoculars = "Binocular";
-                map = "ItemMap";
-                compass = "ItemCompass";
-                watch = "ItemWatch";
-                gps = "ItemGPS";
-                radio = "ItemRadio";
-                nvgoggles = "";
-                addItemsToUniform[] = {
-                    LIST_4("ACE_quikclot"),
-                    LIST_4("ACE_packingBandage"),
-                    LIST_8("ACE_fieldDressing"),
-                    LIST_3("ACE_epinephrine"),
-                    LIST_1("ACE_EntrenchingTool"),
-                    LIST_1("ACE_MapTools"),
-                    LIST_3("ACE_morphine"),
-                    LIST_2("ACE_tourniquet"),
-                    LIST_1("ACE_splint"),
-                    LIST_2("ACE_CableTie")
-                };
-                addItemsToVest[] = {
-                    LIST_2("11Rnd_45ACP_Mag"),
-                    LIST_10("30Rnd_65x39_caseless_msbs_mag"),
-                    LIST_2("MiniGrenade"),
-                    LIST_2("SmokeShell"),
-                    LIST_1("SmokeShellBlue")
-                };
-                addItemsToBackpack[] = {
-                    LIST_20("ACE_fieldDressing"),
-                    LIST_10("ACE_quikclot"),
-                    LIST_10("ACE_packingBandage"),
-                    LIST_5("ACE_epinephrine"),
-                    LIST_5("ACE_morphine"),
-                    LIST_5("ACE_tourniquet"),
-                    LIST_5("ACE_splint"),
-                    LIST_3("ACE_salineIV_500")
-                };
+        };    
+        class ION_Soldier_lxWS {
+            uniform = "U_lxWS_ION_Casual1";
+            vest = "V_lxWS_PlateCarrier1_desert";
+            backpack = "";
+            headgear = "lxWS_H_CapB_rvs_blk_ION";
+            primaryWeapon = "arifle_MSBS65_black_F";
+            primaryWeaponMagazine = "30Rnd_65x39_caseless_msbs_mag";
+            primaryWeaponOptics = "optic_ico_01_black_f";
+            primaryWeaponPointer = "acc_pointer_IR";
+            handgunWeapon = "hgun_Pistol_heavy_01_F";
+            handgunWeaponMagazine = "11Rnd_45ACP_Mag";
+            handgunWeaponOptics = "optic_MRD";
+            binoculars = "Binocular";
+            map = "ItemMap";
+            compass = "ItemCompass";
+            watch = "ItemWatch";
+            gps = "ItemGPS";
+            radio = "ItemRadio";
+            nvgoggles = "";
+            addItemsToUniform[] = {
+                LIST_4("ACE_quikclot"),
+                LIST_4("ACE_packingBandage"),
+                LIST_8("ACE_fieldDressing"),
+                LIST_3("ACE_epinephrine"),
+                LIST_1("ACE_EntrenchingTool"),
+                LIST_1("ACE_MapTools"),
+                LIST_3("ACE_morphine"),
+                LIST_2("ACE_tourniquet"),
+                LIST_1("ACE_splint"),
+                LIST_2("ACE_CableTie")
             };
-            class ION_shot_lxWS {
-                uniform = "U_C_ArtTShirt_01_v5_F";
-                vest = "V_PlateCarrier1_rgr_noflag_F";
-                backpack = "B_AssaultPack_blk";
-                headgear = "H_HeadSet_black_F";
-                primaryWeapon = "arifle_MSBS65_Mark_black_F";
-                primaryWeaponMagazine = "30Rnd_65x39_caseless_msbs_mag";
-                primaryWeaponOptics = "optic_ico_01_black_f";
-                primaryWeaponPointer = "acc_pointer_IR";
-                primaryWeaponUnderbarrel = "bipod_01_F_blk";
-                secondaryWeapon = "rhs_weap_m72a7";
-                handgunWeapon = "hgun_Pistol_heavy_01_F";
-                handgunWeaponMagazine = "11Rnd_45ACP_Mag";
-                handgunWeaponOptics = "optic_MRD";
-                binoculars = "Binocular";
-                map = "ItemMap";
-                compass = "ItemCompass";
-                watch = "ItemWatch";
-                gps = "ItemGPS";
-                radio = "ItemRadio";
-                nvgoggles = "";
-                addItemsToUniform[] = {
-                    LIST_4("ACE_quikclot"),
-                    LIST_4("ACE_packingBandage"),
-                    LIST_8("ACE_fieldDressing"),
-                    LIST_3("ACE_epinephrine"),
-                    LIST_1("ACE_MapTools")
-                };
-                addItemsToVest[] = {
-                    LIST_4("MiniGrenade"),
-                    LIST_4("SmokeShell"),
-                    LIST_8("30Rnd_65x39_caseless_msbs_mag"),
-                    LIST_1("ACE_M14"),
-                    LIST_2("11Rnd_45ACP_Mag")
-                };
-                addItemsToBackpack[] = {
-                    LIST_1("MineDetector"),
-                    LIST_1("ACE_DefusalKit"),
-                    LIST_1("grad_axe"),
-                    LIST_1("ACE_M26_Clacker"),
-                    LIST_1("APERSMineDispenser_Mag"),
-                    LIST_2("DemoCharge_Remote_Mag")
-                };
+            addItemsToVest[] = {
+                LIST_2("11Rnd_45ACP_Mag"),
+                LIST_10("30Rnd_65x39_caseless_msbs_mag"),
+                LIST_2("MiniGrenade"),
+                LIST_2("SmokeShell"),
+                LIST_1("SmokeShellBlue")
             };
-            class ION_marksman_lxWS {
-                uniform = "U_lxWS_ION_Casual5";
-                vest = "V_HarnessO_ghex_F";
-                backpack = "";
-                headgear = "H_Booniehat_khk_hs";
-                primaryWeapon = "srifle_DMR_04_F";
-                primaryWeaponMagazine = "10Rnd_127x54_Mag";
-                primaryWeaponOptics = "optic_DMS_weathered_Kir_F";
-                primaryWeaponPointer = "acc_pointer_IR";
-                primaryWeaponUnderbarrel = "bipod_01_F_blk";
-                handgunWeapon = "hgun_Pistol_heavy_01_F";
-                handgunWeaponMagazine = "11Rnd_45ACP_Mag";
-                handgunWeaponOptics = "optic_MRD";
-                binoculars = "Binocular";
-                map = "ItemMap";
-                compass = "ItemCompass";
-                watch = "ItemWatch";
-                gps = "ItemGPS";
-                radio = "ItemRadio";
-                nvgoggles = "";
-                addItemsToUniform[] = {
-                    LIST_4("ACE_quikclot"),
-                    LIST_4("ACE_packingBandage"),
-                    LIST_8("ACE_fieldDressing"),
-                    LIST_3("ACE_epinephrine"),
-                    LIST_1("ACE_EntrenchingTool"),
-                    LIST_1("ACE_MapTools"),
-                    LIST_3("ACE_morphine"),
-                    LIST_2("ACE_tourniquet"),
-                    LIST_1("ACE_splint"),
-                    LIST_2("ACE_CableTie")
-                };
-                addItemsToVest[] = {
-                    LIST_4("11Rnd_45ACP_Mag"),
-                    LIST_2("MiniGrenade"),
-                    LIST_2("SmokeShell"),
-                    LIST_1("SmokeShellBlue"),
-                    LIST_9("10Rnd_127x54_Mag")
-                };
+        };
+        class ION_Soldier_GL_lxWS {
+            uniform = "U_lxWS_ION_Casual1";
+            vest = "V_PlateCarrierGL_blk";
+            backpack = "";
+            headgear = "lxWS_H_PASGT_goggles_black_F";
+            primaryWeapon = "arifle_MSBS65_GL_black_F";
+            primaryWeaponMagazine = "30Rnd_65x39_caseless_msbs_mag";
+            primaryWeaponOptics = "optic_ico_01_black_f";
+            primaryWeaponPointer = "acc_pointer_IR";
+            primaryWeaponUnderbarrelMagazine = "1Rnd_HE_Grenade_shell";
+            handgunWeapon = "hgun_Pistol_heavy_01_F";
+            handgunWeaponMagazine = "11Rnd_45ACP_Mag";
+            handgunWeaponOptics = "optic_MRD";
+            binoculars = "Binocular";
+            map = "ItemMap";
+            compass = "ItemCompass";
+            watch = "ItemWatch";
+            gps = "ItemGPS";
+            radio = "ItemRadio";
+            nvgoggles = "";
+            addItemsToUniform[] = {
+                LIST_4("ACE_quikclot"),
+                LIST_4("ACE_packingBandage"),
+                LIST_8("ACE_fieldDressing"),
+                LIST_3("ACE_epinephrine"),
+                LIST_1("ACE_EntrenchingTool"),
+                LIST_1("ACE_MapTools"),
+                LIST_3("ACE_morphine"),
+                LIST_2("ACE_tourniquet"),
+                LIST_1("ACE_splint"),
+                LIST_2("ACE_CableTie")
             };
-            class ION_soldier_UAV_02_lxWS {
-                uniform = "U_C_Mechanic_01_F";
-                vest = "V_CarrierRigKBT_01_light_Olive_F";
-                backpack = "ION_UAV_02_backpack_lxWS";
-                headgear = "lxWS_H_Bandanna_blk_hs";
-                primaryWeapon = "arifle_MSBS65_black_F";
-                primaryWeaponMagazine = "30Rnd_65x39_caseless_msbs_mag";
-                primaryWeaponOptics = "optic_ico_01_black_f";
-                primaryWeaponPointer = "acc_pointer_IR";
-                handgunWeapon = "hgun_Pistol_heavy_01_F";
-                handgunWeaponMagazine = "11Rnd_45ACP_Mag";
-                handgunWeaponOptics = "optic_MRD";
-                binoculars = "Binocular";
-                map = "ItemMap";
-                compass = "ItemCompass";
-                watch = "ItemWatch";
-                gps = "B_UavTerminal";
-                radio = "ItemRadio";
-                nvgoggles = "";
-                addItemsToUniform[] = {
-                    LIST_4("ACE_quikclot"),
-                    LIST_4("ACE_packingBandage"),
-                    LIST_8("ACE_fieldDressing"),
-                    LIST_3("ACE_epinephrine"),
-                    LIST_1("ACE_EntrenchingTool"),
-                    LIST_1("ACE_MapTools")
-                };
-                addItemsToVest[] = {
-                    LIST_2("11Rnd_45ACP_Mag"),
-                    LIST_10("30Rnd_65x39_caseless_msbs_mag"),
-                    LIST_2("MiniGrenade"),
-                    LIST_1("SmokeShell")
-                };
+            addItemsToVest[] = {
+                LIST_2("11Rnd_45ACP_Mag"),
+                LIST_8("30Rnd_65x39_caseless_msbs_mag"),
+                LIST_6("1Rnd_HE_Grenade_shell"),
+                LIST_2("1Rnd_Smoke_Grenade_shell"),
+                LIST_1("1Rnd_SmokeRed_Grenade_shell"),
+                LIST_1("1Rnd_SmokeGreen_Grenade_shell"),
+                LIST_1("1Rnd_SmokeBlue_Grenade_shell")
             };
-            class ION_soldier_UAV_01_lxWS {
-                uniform = "U_C_Mechanic_01_F";
-                vest = "V_CarrierRigKBT_01_light_Olive_F";
-                backpack = "ION_UAV_01_backpack_lxWS";
-                headgear = "lxWS_H_Bandanna_blk_hs";
-                primaryWeapon = "arifle_MSBS65_black_F";
-                primaryWeaponMagazine = "30Rnd_65x39_caseless_msbs_mag";
-                primaryWeaponOptics = "optic_ico_01_black_f";
-                primaryWeaponPointer = "acc_pointer_IR";
-                handgunWeapon = "hgun_Pistol_heavy_01_F";
-                handgunWeaponMagazine = "11Rnd_45ACP_Mag";
-                handgunWeaponOptics = "optic_MRD";
-                binoculars = "Binocular";
-                map = "ItemMap";
-                compass = "ItemCompass";
-                watch = "ItemWatch";
-                gps = "B_UavTerminal";
-                radio = "ItemRadio";
-                nvgoggles = "";
-                addItemsToUniform[] = {
-                    LIST_4("ACE_quikclot"),
-                    LIST_4("ACE_packingBandage"),
-                    LIST_8("ACE_fieldDressing"),
-                    LIST_3("ACE_epinephrine"),
-                    LIST_1("ACE_EntrenchingTool"),
-                    LIST_1("ACE_MapTools")
-                };
-                addItemsToVest[] = {
-                    LIST_2("11Rnd_45ACP_Mag"),
-                    LIST_10("30Rnd_65x39_caseless_msbs_mag"),
-                    LIST_2("MiniGrenade"),
-                    LIST_1("SmokeShell")
-                };
+        };
+        class ION_soldier_AR_lxWS {
+            uniform = "U_lxWS_ION_Casual2";
+            vest = "V_CarrierRigKBT_01_light_Olive_F";
+            backpack = "B_AssaultPack_wdl_F";
+            headgear = "H_Cap_blk_ION";
+            primaryWeapon = "LMG_Mk200_black_F";
+            primaryWeaponMagazine = "200Rnd_65x39_cased_Box";
+            primaryWeaponOptics = "optic_Holosight";
+            primaryWeaponPointer = "acc_pointer_IR";
+            primaryWeaponUnderbarrel = "bipod_01_F_blk";
+            handgunWeapon = "hgun_Pistol_heavy_01_F";
+            handgunWeaponMagazine = "11Rnd_45ACP_Mag";
+            handgunWeaponOptics = "optic_MRD";
+            binoculars = "Binocular";
+            map = "ItemMap";
+            compass = "ItemCompass";
+            watch = "ItemWatch";
+            gps = "ItemGPS";
+            radio = "ItemRadio";
+            nvgoggles = "";
+            addItemsToUniform[] = {
+                LIST_4("ACE_quikclot"),
+                LIST_4("ACE_packingBandage"),
+                LIST_8("ACE_fieldDressing"),
+                LIST_3("ACE_epinephrine"),
+                LIST_1("ACE_EntrenchingTool"),
+                LIST_1("ACE_MapTools"),
+                LIST_3("ACE_morphine"),
+                LIST_2("ACE_tourniquet"),
+                LIST_1("ACE_splint"),
+                LIST_2("ACE_CableTie")
             };
-            class ION_crew_lxWS {
-                uniform = "U_lxWS_SFIA_pilot_O";
-                vest = "V_lxWS_HarnessO_oli";
-                backpack = "B_FieldPack_blk";
-                headgear = "lxWS_H_HelmetCrew_I";
-                primaryWeapon = "SMG_03C_black";
-                primaryWeaponMagazine = "50Rnd_570x28_SMG_03";
-                binoculars = "Binocular";
-                map = "ItemMap";
-                compass = "ItemCompass";
-                watch = "ItemWatch";
-                gps = "ItemGPS";
-                radio = "ItemRadio";
-                nvgoggles = "";
-                addItemsToUniform[] = {
-                    LIST_4("ACE_quikclot"),
-                    LIST_4("ACE_packingBandage"),
-                    LIST_8("ACE_fieldDressing"),
-                    LIST_3("ACE_epinephrine"),
-                    LIST_1("ACE_EntrenchingTool"),
-                    LIST_1("ACE_MapTools"),
-                    LIST_3("ACE_morphine"),
-                    LIST_2("ACE_tourniquet"),
-                    LIST_1("ACE_splint"),
-                    LIST_2("ACE_CableTie")
-                };
-                addItemsToVest[] = {
-                    LIST_6("50Rnd_570x28_SMG_03"),
-                    LIST_4("SmokeShell"),
-                    LIST_1("SmokeShellRed"),
-                    LIST_1("SmokeShellPurple"),
-                    LIST_1("SmokeShellBlue"),
-                    LIST_1("SmokeShellGreen"),
-                    LIST_2("MiniGrenade")
-                };
-                addItemsToBackpack[] = {
-                    LIST_1("ToolKit"),
-                    LIST_1("grad_axe"),
-                    LIST_1("ACE_rope3")
-                };
+            addItemsToVest[] = {
+                LIST_2("11Rnd_45ACP_Mag"),
+                LIST_6("1Rnd_HE_Grenade_shell"),
+                LIST_2("1Rnd_Smoke_Grenade_shell"),
+                LIST_1("1Rnd_SmokeRed_Grenade_shell"),
+                LIST_1("1Rnd_SmokeGreen_Grenade_shell"),
+                LIST_1("1Rnd_SmokeBlue_Grenade_shell"),
+                LIST_1("200Rnd_65x39_cased_Box"),
+                LIST_2("SmokeShell"),
+                LIST_2("MiniGrenade")
             };
-            class ION_Helipilot_lxWS {
-                uniform = "U_lxWS_UN_Pilot";
-                vest = "V_Rangemaster_belt";
-                backpack = "B_Parachute";
-                headgear = "H_CrewHelmetHeli_I_E";
-                handgunWeapon = "hgun_Pistol_heavy_01_F";
-                handgunWeaponMagazine = "11Rnd_45ACP_Mag";
-                handgunWeaponOptics = "optic_MRD";
-                binoculars = "Binocular";
-                map = "ItemMap";
-                compass = "ItemCompass";
-                watch = "ACE_Altimeter";
-                gps = "ItemGPS";
-                radio = "ItemRadio";
-                nvgoggles = "";
-                addItemsToUniform[] = {
-                    LIST_4("ACE_quikclot"),
-                    LIST_4("ACE_packingBandage"),
-                    LIST_8("ACE_fieldDressing"),
-                    LIST_3("ACE_epinephrine"),
-                    LIST_1("ACE_EntrenchingTool"),
-                    LIST_1("ACE_MapTools"),
-                    LIST_3("ACE_morphine"),
-                    LIST_2("ACE_tourniquet"),
-                    LIST_1("ACE_splint"),
-                    LIST_2("ACE_CableTie")
-                };
-                addItemsToVest[] = {
-                    LIST_2("SmokeShell"),
-                    LIST_3("11Rnd_45ACP_Mag"),
-                    LIST_1("SmokeShellGreen"),
-                    LIST_1("SmokeShellBlue")
-                };
+            addItemsToBackpack[] = {
+                LIST_3("200Rnd_65x39_cased_Box")
             };
-            class ION_Survivor_lxWS {
-                uniform = "U_O_V_Soldier_Viper_F";
-                vest = "V_PlateCarrierSpec_blk";
-                backpack = "B_ViperHarness_blk_F";
-                headgear = "lxWS_H_bmask_ghex";
-                primaryWeapon = "arifle_MSBS65_UBS_black_F";
-                primaryWeaponMagazine = "30Rnd_65x39_caseless_msbs_mag";
-                primaryWeaponOptics = "optic_ico_01_black_f";
-                primaryWeaponPointer = "acc_pointer_IR";
-                primaryWeaponUnderbarrelMagazine = "6Rnd_12Gauge_Pellets";
-                handgunWeapon = "hgun_Pistol_heavy_01_green_F";
-                handgunWeaponMagazine = "11Rnd_45ACP_Mag";
-                handgunWeaponOptics = "optic_MRD_black";
-                binoculars = "Binocular";
-                map = "ItemMap";
-                compass = "ItemCompass";
-                watch = "ItemWatch";
-                gps = "ItemGPS";
-                radio = "ItemRadio";
-                nvgoggles = "";
-                addItemsToUniform[] = {
-                    LIST_4("ACE_quikclot"),
-                    LIST_4("ACE_packingBandage"),
-                    LIST_4("ACE_fieldDressing"),
-                    LIST_2("ACE_epinephrine"),
-                    LIST_1("ACE_MapTools"),
-                    LIST_2("ACE_morphine"),
-                    LIST_2("ACE_tourniquet"),
-                    LIST_1("ACE_CableTie")
-                };
-                addItemsToVest[] = {
-                    LIST_2("1Rnd_HE_Grenade_shell"),
-                    LIST_4("MiniGrenade"),
-                    LIST_6("30Rnd_65x39_caseless_msbs_mag"),
-                    LIST_1("11Rnd_45ACP_Mag")
-                };
-                addItemsToBackpack[] = {
-                    LIST_6("30Rnd_65x39_caseless_msbs_mag"),
-                    LIST_4("6rnd_Smoke_Mag_lxWS"),
-                    LIST_2("6rnd_HE_Mag_lxWS"),
-                    LIST_7("6Rnd_12Gauge_Pellets"),
-                    LIST_1("11Rnd_45ACP_Mag"),
-                    LIST_4("gm_smokeshell_blk_gc")
-                };
+        };
+        class ION_medic_lxWS {
+            uniform = "U_lxWS_ION_Casual4";
+            vest = "V_TacVestIR_blk";
+            backpack = "grad_extras_kit_kitbag_sgg_medic";
+            headgear = "H_Cap_headphones";
+            primaryWeapon = "arifle_MSBS65_black_F";
+            primaryWeaponMagazine = "30Rnd_65x39_caseless_msbs_mag";
+            primaryWeaponOptics = "optic_ico_01_black_f";
+            primaryWeaponPointer = "acc_pointer_IR";
+            handgunWeapon = "hgun_Pistol_heavy_01_F";
+            handgunWeaponMagazine = "11Rnd_45ACP_Mag";
+            handgunWeaponOptics = "optic_MRD";
+            binoculars = "Binocular";
+            map = "ItemMap";
+            compass = "ItemCompass";
+            watch = "ItemWatch";
+            gps = "ItemGPS";
+            radio = "ItemRadio";
+            nvgoggles = "";
+            addItemsToUniform[] = {
+                LIST_4("ACE_quikclot"),
+                LIST_4("ACE_packingBandage"),
+                LIST_8("ACE_fieldDressing"),
+                LIST_3("ACE_epinephrine"),
+                LIST_1("ACE_EntrenchingTool"),
+                LIST_1("ACE_MapTools"),
+                LIST_3("ACE_morphine"),
+                LIST_2("ACE_tourniquet"),
+                LIST_1("ACE_splint"),
+                LIST_2("ACE_CableTie")
             };
-            class GEN_Soldier_F {
-                uniform = "U_B_GEN_Soldier_F";
-                vest = "UK3CB_TKP_B_V_TacVest_Tan";
-                backpack = "";
-                headgear = "H_Cap_blk_ION";
-                primaryWeapon = "gm_m16a2_blk";
-                primaryWeaponMagazine = "gm_30Rnd_556x45mm_B_M855_stanag_gry";
-                binoculars = "Binocular";
-                map = "ItemMap";
-                compass = "ItemCompass";
-                watch = "ItemWatch";
-                gps = "B_UavTerminal";
-                radio = "ItemRadio";
-                nvgoggles = "";
-                addItemsToUniform[] = {
-                    LIST_4("ACE_quikclot"),
-                    LIST_4("ACE_packingBandage"),
-                    LIST_8("ACE_fieldDressing"),
-                    LIST_3("ACE_epinephrine"),
-                    LIST_1("ACE_EntrenchingTool"),
-                    LIST_1("ACE_MapTools")
-                };
-                addItemsToVest[] = {
-                    LIST_4("gm_30Rnd_556x45mm_B_M855_stanag_gry"),
-                    LIST_2("rhs_mag_m7a3_cs"),
-                    LIST_2("ACE_M84"),
-                    LIST_2("ACE_CTS9"),
-                    LIST_2("SmokeShellYellow")
-                };
+            addItemsToVest[] = {
+                LIST_2("11Rnd_45ACP_Mag"),
+                LIST_10("30Rnd_65x39_caseless_msbs_mag"),
+                LIST_2("MiniGrenade"),
+                LIST_2("SmokeShell"),
+                LIST_1("SmokeShellBlue")
             };
-            class GEN_Commander_F {
-                uniform = "U_B_GEN_Soldier_F";
-                vest = "UK3CB_TKP_B_V_TacVest_Tan";
-                backpack = "";
-                headgear = "H_Beret_blk";
-                primaryWeapon = "gm_mp5a2_blk";
-                primaryWeaponMagazine = "gm_30Rnd_9x19mm_B_DM51_mp5a3_blk";
-                binoculars = "Binocular";
-                map = "ItemMap";
-                compass = "ItemCompass";
-                watch = "ItemWatch";
-                gps = "B_UavTerminal";
-                radio = "ItemRadio";
-                nvgoggles = "";
-                addItemsToUniform[] = {
-                    LIST_4("ACE_quikclot"),
-                    LIST_4("ACE_packingBandage"),
-                    LIST_8("ACE_fieldDressing"),
-                    LIST_3("ACE_epinephrine"),
-                    LIST_1("ACE_EntrenchingTool"),
-                    LIST_1("ACE_MapTools")
-                };
-                addItemsToVest[] = {
-                    LIST_2("rhs_mag_m7a3_cs"),
-                    LIST_2("ACE_M84"),
-                    LIST_2("ACE_CTS9"),
-                    LIST_2("SmokeShellYellow"),
-                    LIST_8("gm_30Rnd_9x19mm_B_DM51_mp5a3_blk")
-                };
+            addItemsToBackpack[] = {
+                LIST_20("ACE_fieldDressing"),
+                LIST_10("ACE_quikclot"),
+                LIST_10("ACE_packingBandage"),
+                LIST_5("ACE_epinephrine"),
+                LIST_5("ACE_morphine"),
+                LIST_5("ACE_tourniquet"),
+                LIST_5("ACE_splint"),
+                LIST_3("ACE_salineIV_500")
+            };
+        };
+        class ION_shot_lxWS {
+            uniform = "U_C_ArtTShirt_01_v5_F";
+            vest = "V_PlateCarrier1_rgr_noflag_F";
+            backpack = "B_AssaultPack_blk";
+            headgear = "H_HeadSet_black_F";
+            primaryWeapon = "arifle_MSBS65_Mark_black_F";
+            primaryWeaponMagazine = "30Rnd_65x39_caseless_msbs_mag";
+            primaryWeaponOptics = "optic_ico_01_black_f";
+            primaryWeaponPointer = "acc_pointer_IR";
+            primaryWeaponUnderbarrel = "bipod_01_F_blk";
+            secondaryWeapon = "rhs_weap_m72a7";
+            handgunWeapon = "hgun_Pistol_heavy_01_F";
+            handgunWeaponMagazine = "11Rnd_45ACP_Mag";
+            handgunWeaponOptics = "optic_MRD";
+            binoculars = "Binocular";
+            map = "ItemMap";
+            compass = "ItemCompass";
+            watch = "ItemWatch";
+            gps = "ItemGPS";
+            radio = "ItemRadio";
+            nvgoggles = "";
+            addItemsToUniform[] = {
+                LIST_4("ACE_quikclot"),
+                LIST_4("ACE_packingBandage"),
+                LIST_8("ACE_fieldDressing"),
+                LIST_3("ACE_epinephrine"),
+                LIST_1("ACE_MapTools")
+            };
+            addItemsToVest[] = {
+                LIST_4("MiniGrenade"),
+                LIST_4("SmokeShell"),
+                LIST_8("30Rnd_65x39_caseless_msbs_mag"),
+                LIST_1("ACE_M14"),
+                LIST_2("11Rnd_45ACP_Mag")
+            };
+            addItemsToBackpack[] = {
+                LIST_1("MineDetector"),
+                LIST_1("ACE_DefusalKit"),
+                LIST_1("grad_axe"),
+                LIST_1("ACE_M26_Clacker"),
+                LIST_1("APERSMineDispenser_Mag"),
+                LIST_2("DemoCharge_Remote_Mag")
+            };
+        };
+        class ION_marksman_lxWS {
+            uniform = "U_lxWS_ION_Casual5";
+            vest = "V_HarnessO_ghex_F";
+            backpack = "";
+            headgear = "H_Booniehat_khk_hs";
+            primaryWeapon = "srifle_DMR_04_F";
+            primaryWeaponMagazine = "10Rnd_127x54_Mag";
+            primaryWeaponOptics = "optic_DMS_weathered_Kir_F";
+            primaryWeaponPointer = "acc_pointer_IR";
+            primaryWeaponUnderbarrel = "bipod_01_F_blk";
+            handgunWeapon = "hgun_Pistol_heavy_01_F";
+            handgunWeaponMagazine = "11Rnd_45ACP_Mag";
+            handgunWeaponOptics = "optic_MRD";
+            binoculars = "Binocular";
+            map = "ItemMap";
+            compass = "ItemCompass";
+            watch = "ItemWatch";
+            gps = "ItemGPS";
+            radio = "ItemRadio";
+            nvgoggles = "";
+            addItemsToUniform[] = {
+                LIST_4("ACE_quikclot"),
+                LIST_4("ACE_packingBandage"),
+                LIST_8("ACE_fieldDressing"),
+                LIST_3("ACE_epinephrine"),
+                LIST_1("ACE_EntrenchingTool"),
+                LIST_1("ACE_MapTools"),
+                LIST_3("ACE_morphine"),
+                LIST_2("ACE_tourniquet"),
+                LIST_1("ACE_splint"),
+                LIST_2("ACE_CableTie")
+            };
+            addItemsToVest[] = {
+                LIST_4("11Rnd_45ACP_Mag"),
+                LIST_2("MiniGrenade"),
+                LIST_2("SmokeShell"),
+                LIST_1("SmokeShellBlue"),
+                LIST_9("10Rnd_127x54_Mag")
+            };
+        };
+        class ION_soldier_UAV_02_lxWS {
+            uniform = "U_C_Mechanic_01_F";
+            vest = "V_CarrierRigKBT_01_light_Olive_F";
+            backpack = "ION_UAV_02_backpack_lxWS";
+            headgear = "lxWS_H_Bandanna_blk_hs";
+            primaryWeapon = "arifle_MSBS65_black_F";
+            primaryWeaponMagazine = "30Rnd_65x39_caseless_msbs_mag";
+            primaryWeaponOptics = "optic_ico_01_black_f";
+            primaryWeaponPointer = "acc_pointer_IR";
+            handgunWeapon = "hgun_Pistol_heavy_01_F";
+            handgunWeaponMagazine = "11Rnd_45ACP_Mag";
+            handgunWeaponOptics = "optic_MRD";
+            binoculars = "Binocular";
+            map = "ItemMap";
+            compass = "ItemCompass";
+            watch = "ItemWatch";
+            gps = "B_UavTerminal";
+            radio = "ItemRadio";
+            nvgoggles = "";
+            addItemsToUniform[] = {
+                LIST_4("ACE_quikclot"),
+                LIST_4("ACE_packingBandage"),
+                LIST_8("ACE_fieldDressing"),
+                LIST_3("ACE_epinephrine"),
+                LIST_1("ACE_EntrenchingTool"),
+                LIST_1("ACE_MapTools")
+            };
+            addItemsToVest[] = {
+                LIST_2("11Rnd_45ACP_Mag"),
+                LIST_10("30Rnd_65x39_caseless_msbs_mag"),
+                LIST_2("MiniGrenade"),
+                LIST_1("SmokeShell")
+            };
+        };
+        class ION_soldier_UAV_01_lxWS {
+            uniform = "U_C_Mechanic_01_F";
+            vest = "V_CarrierRigKBT_01_light_Olive_F";
+            backpack = "ION_UAV_01_backpack_lxWS";
+            headgear = "lxWS_H_Bandanna_blk_hs";
+            primaryWeapon = "arifle_MSBS65_black_F";
+            primaryWeaponMagazine = "30Rnd_65x39_caseless_msbs_mag";
+            primaryWeaponOptics = "optic_ico_01_black_f";
+            primaryWeaponPointer = "acc_pointer_IR";
+            handgunWeapon = "hgun_Pistol_heavy_01_F";
+            handgunWeaponMagazine = "11Rnd_45ACP_Mag";
+            handgunWeaponOptics = "optic_MRD";
+            binoculars = "Binocular";
+            map = "ItemMap";
+            compass = "ItemCompass";
+            watch = "ItemWatch";
+            gps = "B_UavTerminal";
+            radio = "ItemRadio";
+            nvgoggles = "";
+            addItemsToUniform[] = {
+                LIST_4("ACE_quikclot"),
+                LIST_4("ACE_packingBandage"),
+                LIST_8("ACE_fieldDressing"),
+                LIST_3("ACE_epinephrine"),
+                LIST_1("ACE_EntrenchingTool"),
+                LIST_1("ACE_MapTools")
+            };
+            addItemsToVest[] = {
+                LIST_2("11Rnd_45ACP_Mag"),
+                LIST_10("30Rnd_65x39_caseless_msbs_mag"),
+                LIST_2("MiniGrenade"),
+                LIST_1("SmokeShell")
+            };
+        };
+        class ION_crew_lxWS {
+            uniform = "U_lxWS_SFIA_pilot_O";
+            vest = "V_lxWS_HarnessO_oli";
+            backpack = "B_FieldPack_blk";
+            headgear = "lxWS_H_HelmetCrew_I";
+            primaryWeapon = "SMG_03C_black";
+            primaryWeaponMagazine = "50Rnd_570x28_SMG_03";
+            binoculars = "Binocular";
+            map = "ItemMap";
+            compass = "ItemCompass";
+            watch = "ItemWatch";
+            gps = "ItemGPS";
+            radio = "ItemRadio";
+            nvgoggles = "";
+            addItemsToUniform[] = {
+                LIST_4("ACE_quikclot"),
+                LIST_4("ACE_packingBandage"),
+                LIST_8("ACE_fieldDressing"),
+                LIST_3("ACE_epinephrine"),
+                LIST_1("ACE_EntrenchingTool"),
+                LIST_1("ACE_MapTools"),
+                LIST_3("ACE_morphine"),
+                LIST_2("ACE_tourniquet"),
+                LIST_1("ACE_splint"),
+                LIST_2("ACE_CableTie")
+            };
+            addItemsToVest[] = {
+                LIST_6("50Rnd_570x28_SMG_03"),
+                LIST_4("SmokeShell"),
+                LIST_1("SmokeShellRed"),
+                LIST_1("SmokeShellPurple"),
+                LIST_1("SmokeShellBlue"),
+                LIST_1("SmokeShellGreen"),
+                LIST_2("MiniGrenade")
+            };
+            addItemsToBackpack[] = {
+                LIST_1("ToolKit"),
+                LIST_1("grad_axe"),
+                LIST_1("ACE_rope3")
+            };
+        };
+        class ION_Helipilot_lxWS {
+            uniform = "U_lxWS_UN_Pilot";
+            vest = "V_Rangemaster_belt";
+            backpack = "B_Parachute";
+            headgear = "H_CrewHelmetHeli_I_E";
+            handgunWeapon = "hgun_Pistol_heavy_01_F";
+            handgunWeaponMagazine = "11Rnd_45ACP_Mag";
+            handgunWeaponOptics = "optic_MRD";
+            binoculars = "Binocular";
+            map = "ItemMap";
+            compass = "ItemCompass";
+            watch = "ACE_Altimeter";
+            gps = "ItemGPS";
+            radio = "ItemRadio";
+            nvgoggles = "";
+            addItemsToUniform[] = {
+                LIST_4("ACE_quikclot"),
+                LIST_4("ACE_packingBandage"),
+                LIST_8("ACE_fieldDressing"),
+                LIST_3("ACE_epinephrine"),
+                LIST_1("ACE_EntrenchingTool"),
+                LIST_1("ACE_MapTools"),
+                LIST_3("ACE_morphine"),
+                LIST_2("ACE_tourniquet"),
+                LIST_1("ACE_splint"),
+                LIST_2("ACE_CableTie")
+            };
+            addItemsToVest[] = {
+                LIST_2("SmokeShell"),
+                LIST_3("11Rnd_45ACP_Mag"),
+                LIST_1("SmokeShellGreen"),
+                LIST_1("SmokeShellBlue")
+            };
+        };
+        class ION_Survivor_lxWS {
+            uniform = "U_O_V_Soldier_Viper_F";
+            vest = "V_PlateCarrierSpec_blk";
+            backpack = "B_ViperHarness_blk_F";
+            headgear = "lxWS_H_bmask_ghex";
+            primaryWeapon = "arifle_MSBS65_UBS_black_F";
+            primaryWeaponMagazine = "30Rnd_65x39_caseless_msbs_mag";
+            primaryWeaponOptics = "optic_ico_01_black_f";
+            primaryWeaponPointer = "acc_pointer_IR";
+            primaryWeaponUnderbarrelMagazine = "6Rnd_12Gauge_Pellets";
+            handgunWeapon = "hgun_Pistol_heavy_01_green_F";
+            handgunWeaponMagazine = "11Rnd_45ACP_Mag";
+            handgunWeaponOptics = "optic_MRD_black";
+            binoculars = "Binocular";
+            map = "ItemMap";
+            compass = "ItemCompass";
+            watch = "ItemWatch";
+            gps = "ItemGPS";
+            radio = "ItemRadio";
+            nvgoggles = "";
+            addItemsToUniform[] = {
+                LIST_4("ACE_quikclot"),
+                LIST_4("ACE_packingBandage"),
+                LIST_4("ACE_fieldDressing"),
+                LIST_2("ACE_epinephrine"),
+                LIST_1("ACE_MapTools"),
+                LIST_2("ACE_morphine"),
+                LIST_2("ACE_tourniquet"),
+                LIST_1("ACE_CableTie")
+            };
+            addItemsToVest[] = {
+                LIST_2("1Rnd_HE_Grenade_shell"),
+                LIST_4("MiniGrenade"),
+                LIST_6("30Rnd_65x39_caseless_msbs_mag"),
+                LIST_1("11Rnd_45ACP_Mag")
+            };
+            addItemsToBackpack[] = {
+                LIST_6("30Rnd_65x39_caseless_msbs_mag"),
+                LIST_4("6rnd_Smoke_Mag_lxWS"),
+                LIST_2("6rnd_HE_Mag_lxWS"),
+                LIST_7("6Rnd_12Gauge_Pellets"),
+                LIST_1("11Rnd_45ACP_Mag"),
+                LIST_4("gm_smokeshell_blk_gc")
+            };
+        };
+        class GEN_Soldier_F {
+            uniform = "U_B_GEN_Soldier_F";
+            vest = "UK3CB_TKP_B_V_TacVest_Tan";
+            backpack = "";
+            headgear = "H_Cap_blk_ION";
+            primaryWeapon = "gm_m16a2_blk";
+            primaryWeaponMagazine = "gm_30Rnd_556x45mm_B_M855_stanag_gry";
+            binoculars = "Binocular";
+            map = "ItemMap";
+            compass = "ItemCompass";
+            watch = "ItemWatch";
+            gps = "B_UavTerminal";
+            radio = "ItemRadio";
+            nvgoggles = "";
+            addItemsToUniform[] = {
+                LIST_4("ACE_quikclot"),
+                LIST_4("ACE_packingBandage"),
+                LIST_8("ACE_fieldDressing"),
+                LIST_3("ACE_epinephrine"),
+                LIST_1("ACE_EntrenchingTool"),
+                LIST_1("ACE_MapTools")
+            };
+            addItemsToVest[] = {
+                LIST_4("gm_30Rnd_556x45mm_B_M855_stanag_gry"),
+                LIST_2("rhs_mag_m7a3_cs"),
+                LIST_2("ACE_M84"),
+                LIST_2("ACE_CTS9"),
+                LIST_2("SmokeShellYellow")
+            };
+        };
+        class GEN_Commander_F {
+            uniform = "U_B_GEN_Soldier_F";
+            vest = "UK3CB_TKP_B_V_TacVest_Tan";
+            backpack = "";
+            headgear = "H_Beret_blk";
+            primaryWeapon = "gm_mp5a2_blk";
+            primaryWeaponMagazine = "gm_30Rnd_9x19mm_B_DM51_mp5a3_blk";
+            binoculars = "Binocular";
+            map = "ItemMap";
+            compass = "ItemCompass";
+            watch = "ItemWatch";
+            gps = "B_UavTerminal";
+            radio = "ItemRadio";
+            nvgoggles = "";
+            addItemsToUniform[] = {
+                LIST_4("ACE_quikclot"),
+                LIST_4("ACE_packingBandage"),
+                LIST_8("ACE_fieldDressing"),
+                LIST_3("ACE_epinephrine"),
+                LIST_1("ACE_EntrenchingTool"),
+                LIST_1("ACE_MapTools")
+            };
+            addItemsToVest[] = {
+                LIST_2("rhs_mag_m7a3_cs"),
+                LIST_2("ACE_M84"),
+                LIST_2("ACE_CTS9"),
+                LIST_2("SmokeShellYellow"),
+                LIST_8("gm_30Rnd_9x19mm_B_DM51_mp5a3_blk")
             };
         };
     };
 };
+
