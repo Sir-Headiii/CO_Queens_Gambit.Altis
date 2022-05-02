@@ -8,7 +8,7 @@ class EditorData
 	toggles=65;
 	class ItemIDProvider
 	{
-		nextID=3113;
+		nextID=3114;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=378;
+		nextID=386;
 	};
 	class Camera
 	{
-		pos[]={5508.1836,62.520966,14921.97};
-		dir[]={0.027447663,-0.48773414,0.87257248};
-		up[]={0.015335006,0.87298542,0.48750448};
-		aside[]={0.99951637,-2.2962922e-008,-0.031439479};
+		pos[]={5547.6357,52.087681,14948.861};
+		dir[]={-0.67883962,-0.37628868,0.63062233};
+		up[]={-0.27571413,0.92648268,0.25612956};
+		aside[]={0.68064004,8.6874934e-009,0.7326864};
 	};
 };
 binarizationWanted=0;
@@ -1313,7 +1313,7 @@ class ScenarioData
 };
 class CustomAttributes
 {
-	class Category0
+	class Category1
 	{
 		name="Scenario";
 		class Attribute0
@@ -6068,7 +6068,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=589;
+		items=590;
 		class Item0
 		{
 			dataType="Layer";
@@ -14613,8 +14613,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={5469.5674,29.681704,15010.621};
-				angles[]={0,5.3386154,0};
+				position[]={5468.9795,29.681704,15010.29};
+				angles[]={-0,5.3386154,0};
 			};
 			side="Empty";
 			flags=4;
@@ -36981,6 +36981,174 @@ class Mission
 						rank="COLONEL";
 						description="Headiii @ARES";
 						isPlayer=1;
+						class Inventory
+						{
+							class primaryWeapon
+							{
+								name="arifle_MSBS65_UBS_black_F";
+								optics="optic_ico_01_black_f";
+								flashlight="acc_pointer_IR";
+								firemode="arifle_MSBS65_UBS_black_F:Single";
+								class primaryMuzzleMag
+								{
+									name="30Rnd_65x39_caseless_msbs_mag";
+									ammoLeft=30;
+								};
+								class secondaryMuzzleMag
+								{
+									name="6Rnd_12Gauge_Pellets";
+									ammoLeft=6;
+								};
+							};
+							class handgun
+							{
+								name="hgun_Pistol_heavy_01_green_F";
+								optics="optic_MRD_black";
+								class primaryMuzzleMag
+								{
+									name="11Rnd_45ACP_Mag";
+									ammoLeft=15;
+								};
+							};
+							class binocular
+							{
+								name="Binocular";
+							};
+							class uniform
+							{
+								typeName="U_O_V_Soldier_Viper_F";
+								isBackpack=0;
+								class ItemCargo
+								{
+									items=8;
+									class Item0
+									{
+										name="ACE_quikclot";
+										count=4;
+									};
+									class Item1
+									{
+										name="ACE_packingBandage";
+										count=4;
+									};
+									class Item2
+									{
+										name="ACE_fieldDressing";
+										count=4;
+									};
+									class Item3
+									{
+										name="ACE_epinephrine";
+										count=2;
+									};
+									class Item4
+									{
+										name="ACE_MapTools";
+										count=1;
+									};
+									class Item5
+									{
+										name="ACE_morphine";
+										count=2;
+									};
+									class Item6
+									{
+										name="ACE_tourniquet";
+										count=2;
+									};
+									class Item7
+									{
+										name="ACE_CableTie";
+										count=1;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="V_PlateCarrierSpec_blk";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=4;
+									class Item0
+									{
+										name="1Rnd_HE_Grenade_shell";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item1
+									{
+										name="MiniGrenade";
+										count=4;
+										ammoLeft=1;
+									};
+									class Item2
+									{
+										name="30Rnd_65x39_caseless_msbs_mag";
+										count=6;
+										ammoLeft=30;
+									};
+									class Item3
+									{
+										name="11Rnd_45ACP_Mag";
+										count=1;
+										ammoLeft=15;
+									};
+								};
+							};
+							class backpack
+							{
+								typeName="B_ViperHarness_blk_F";
+								isBackpack=1;
+								class MagazineCargo
+								{
+									items=6;
+									class Item0
+									{
+										name="30Rnd_65x39_caseless_msbs_mag";
+										count=6;
+										ammoLeft=30;
+									};
+									class Item1
+									{
+										name="6rnd_Smoke_Mag_lxWS";
+										count=4;
+										ammoLeft=6;
+									};
+									class Item2
+									{
+										name="6rnd_HE_Mag_lxWS";
+										count=2;
+										ammoLeft=6;
+									};
+									class Item3
+									{
+										name="6Rnd_12Gauge_Pellets";
+										count=7;
+										ammoLeft=6;
+									};
+									class Item4
+									{
+										name="11Rnd_45ACP_Mag";
+										count=1;
+										ammoLeft=15;
+									};
+									class Item5
+									{
+										name="gm_smokeshell_blk_gc";
+										count=4;
+										ammoLeft=1;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							radio="ItemRadio";
+							gps="ItemGPS";
+							goggles="G_Balaclava_blk";
+							headgear="lxWS_H_bmask_ghex";
+						};
 					};
 					id=3046;
 					type="B_ION_Survivor_lxWS";
@@ -37069,6 +37237,174 @@ class Mission
 						rank="CAPTAIN";
 						description="Zeus";
 						isPlayable=1;
+						class Inventory
+						{
+							class primaryWeapon
+							{
+								name="arifle_MSBS65_UBS_black_F";
+								optics="optic_ico_01_black_f";
+								flashlight="acc_pointer_IR";
+								firemode="arifle_MSBS65_UBS_black_F:Single";
+								class primaryMuzzleMag
+								{
+									name="30Rnd_65x39_caseless_msbs_mag";
+									ammoLeft=30;
+								};
+								class secondaryMuzzleMag
+								{
+									name="6Rnd_12Gauge_Pellets";
+									ammoLeft=6;
+								};
+							};
+							class handgun
+							{
+								name="hgun_Pistol_heavy_01_green_F";
+								optics="optic_MRD_black";
+								class primaryMuzzleMag
+								{
+									name="11Rnd_45ACP_Mag";
+									ammoLeft=15;
+								};
+							};
+							class binocular
+							{
+								name="Binocular";
+							};
+							class uniform
+							{
+								typeName="U_O_V_Soldier_Viper_F";
+								isBackpack=0;
+								class ItemCargo
+								{
+									items=8;
+									class Item0
+									{
+										name="ACE_quikclot";
+										count=4;
+									};
+									class Item1
+									{
+										name="ACE_packingBandage";
+										count=4;
+									};
+									class Item2
+									{
+										name="ACE_fieldDressing";
+										count=4;
+									};
+									class Item3
+									{
+										name="ACE_epinephrine";
+										count=2;
+									};
+									class Item4
+									{
+										name="ACE_MapTools";
+										count=1;
+									};
+									class Item5
+									{
+										name="ACE_morphine";
+										count=2;
+									};
+									class Item6
+									{
+										name="ACE_tourniquet";
+										count=2;
+									};
+									class Item7
+									{
+										name="ACE_CableTie";
+										count=1;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="V_PlateCarrierSpec_blk";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=4;
+									class Item0
+									{
+										name="1Rnd_HE_Grenade_shell";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item1
+									{
+										name="MiniGrenade";
+										count=4;
+										ammoLeft=1;
+									};
+									class Item2
+									{
+										name="30Rnd_65x39_caseless_msbs_mag";
+										count=6;
+										ammoLeft=30;
+									};
+									class Item3
+									{
+										name="11Rnd_45ACP_Mag";
+										count=1;
+										ammoLeft=15;
+									};
+								};
+							};
+							class backpack
+							{
+								typeName="B_ViperHarness_blk_F";
+								isBackpack=1;
+								class MagazineCargo
+								{
+									items=6;
+									class Item0
+									{
+										name="30Rnd_65x39_caseless_msbs_mag";
+										count=6;
+										ammoLeft=30;
+									};
+									class Item1
+									{
+										name="6rnd_Smoke_Mag_lxWS";
+										count=4;
+										ammoLeft=6;
+									};
+									class Item2
+									{
+										name="6rnd_HE_Mag_lxWS";
+										count=2;
+										ammoLeft=6;
+									};
+									class Item3
+									{
+										name="6Rnd_12Gauge_Pellets";
+										count=7;
+										ammoLeft=6;
+									};
+									class Item4
+									{
+										name="11Rnd_45ACP_Mag";
+										count=1;
+										ammoLeft=15;
+									};
+									class Item5
+									{
+										name="gm_smokeshell_blk_gc";
+										count=4;
+										ammoLeft=1;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							radio="ItemRadio";
+							gps="ItemGPS";
+							goggles="G_Balaclava_blk";
+							headgear="lxWS_H_bmask_ghex";
+						};
 					};
 					id=3047;
 					type="B_ION_Survivor_lxWS";
@@ -37157,6 +37493,174 @@ class Mission
 						rank="LIEUTENANT";
 						description="Zeus";
 						isPlayable=1;
+						class Inventory
+						{
+							class primaryWeapon
+							{
+								name="arifle_MSBS65_UBS_black_F";
+								optics="optic_ico_01_black_f";
+								flashlight="acc_pointer_IR";
+								firemode="arifle_MSBS65_UBS_black_F:Single";
+								class primaryMuzzleMag
+								{
+									name="30Rnd_65x39_caseless_msbs_mag";
+									ammoLeft=30;
+								};
+								class secondaryMuzzleMag
+								{
+									name="6Rnd_12Gauge_Pellets";
+									ammoLeft=6;
+								};
+							};
+							class handgun
+							{
+								name="hgun_Pistol_heavy_01_green_F";
+								optics="optic_MRD_black";
+								class primaryMuzzleMag
+								{
+									name="11Rnd_45ACP_Mag";
+									ammoLeft=15;
+								};
+							};
+							class binocular
+							{
+								name="Binocular";
+							};
+							class uniform
+							{
+								typeName="U_O_V_Soldier_Viper_F";
+								isBackpack=0;
+								class ItemCargo
+								{
+									items=8;
+									class Item0
+									{
+										name="ACE_quikclot";
+										count=4;
+									};
+									class Item1
+									{
+										name="ACE_packingBandage";
+										count=4;
+									};
+									class Item2
+									{
+										name="ACE_fieldDressing";
+										count=4;
+									};
+									class Item3
+									{
+										name="ACE_epinephrine";
+										count=2;
+									};
+									class Item4
+									{
+										name="ACE_MapTools";
+										count=1;
+									};
+									class Item5
+									{
+										name="ACE_morphine";
+										count=2;
+									};
+									class Item6
+									{
+										name="ACE_tourniquet";
+										count=2;
+									};
+									class Item7
+									{
+										name="ACE_CableTie";
+										count=1;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="V_PlateCarrierSpec_blk";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=4;
+									class Item0
+									{
+										name="1Rnd_HE_Grenade_shell";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item1
+									{
+										name="MiniGrenade";
+										count=4;
+										ammoLeft=1;
+									};
+									class Item2
+									{
+										name="30Rnd_65x39_caseless_msbs_mag";
+										count=6;
+										ammoLeft=30;
+									};
+									class Item3
+									{
+										name="11Rnd_45ACP_Mag";
+										count=1;
+										ammoLeft=15;
+									};
+								};
+							};
+							class backpack
+							{
+								typeName="B_ViperHarness_blk_F";
+								isBackpack=1;
+								class MagazineCargo
+								{
+									items=6;
+									class Item0
+									{
+										name="30Rnd_65x39_caseless_msbs_mag";
+										count=6;
+										ammoLeft=30;
+									};
+									class Item1
+									{
+										name="6rnd_Smoke_Mag_lxWS";
+										count=4;
+										ammoLeft=6;
+									};
+									class Item2
+									{
+										name="6rnd_HE_Mag_lxWS";
+										count=2;
+										ammoLeft=6;
+									};
+									class Item3
+									{
+										name="6Rnd_12Gauge_Pellets";
+										count=7;
+										ammoLeft=6;
+									};
+									class Item4
+									{
+										name="11Rnd_45ACP_Mag";
+										count=1;
+										ammoLeft=15;
+									};
+									class Item5
+									{
+										name="gm_smokeshell_blk_gc";
+										count=4;
+										ammoLeft=1;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							radio="ItemRadio";
+							gps="ItemGPS";
+							goggles="G_Balaclava_blk";
+							headgear="lxWS_H_bmask_ghex";
+						};
 					};
 					id=3048;
 					type="B_ION_Survivor_lxWS";
@@ -37245,6 +37749,174 @@ class Mission
 						rank="LIEUTENANT";
 						description="Zeus";
 						isPlayable=1;
+						class Inventory
+						{
+							class primaryWeapon
+							{
+								name="arifle_MSBS65_UBS_black_F";
+								optics="optic_ico_01_black_f";
+								flashlight="acc_pointer_IR";
+								firemode="arifle_MSBS65_UBS_black_F:Single";
+								class primaryMuzzleMag
+								{
+									name="30Rnd_65x39_caseless_msbs_mag";
+									ammoLeft=30;
+								};
+								class secondaryMuzzleMag
+								{
+									name="6Rnd_12Gauge_Pellets";
+									ammoLeft=6;
+								};
+							};
+							class handgun
+							{
+								name="hgun_Pistol_heavy_01_green_F";
+								optics="optic_MRD_black";
+								class primaryMuzzleMag
+								{
+									name="11Rnd_45ACP_Mag";
+									ammoLeft=15;
+								};
+							};
+							class binocular
+							{
+								name="Binocular";
+							};
+							class uniform
+							{
+								typeName="U_O_V_Soldier_Viper_F";
+								isBackpack=0;
+								class ItemCargo
+								{
+									items=8;
+									class Item0
+									{
+										name="ACE_quikclot";
+										count=4;
+									};
+									class Item1
+									{
+										name="ACE_packingBandage";
+										count=4;
+									};
+									class Item2
+									{
+										name="ACE_fieldDressing";
+										count=4;
+									};
+									class Item3
+									{
+										name="ACE_epinephrine";
+										count=2;
+									};
+									class Item4
+									{
+										name="ACE_MapTools";
+										count=1;
+									};
+									class Item5
+									{
+										name="ACE_morphine";
+										count=2;
+									};
+									class Item6
+									{
+										name="ACE_tourniquet";
+										count=2;
+									};
+									class Item7
+									{
+										name="ACE_CableTie";
+										count=1;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="V_PlateCarrierSpec_blk";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=4;
+									class Item0
+									{
+										name="1Rnd_HE_Grenade_shell";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item1
+									{
+										name="MiniGrenade";
+										count=4;
+										ammoLeft=1;
+									};
+									class Item2
+									{
+										name="30Rnd_65x39_caseless_msbs_mag";
+										count=6;
+										ammoLeft=30;
+									};
+									class Item3
+									{
+										name="11Rnd_45ACP_Mag";
+										count=1;
+										ammoLeft=15;
+									};
+								};
+							};
+							class backpack
+							{
+								typeName="B_ViperHarness_blk_F";
+								isBackpack=1;
+								class MagazineCargo
+								{
+									items=6;
+									class Item0
+									{
+										name="30Rnd_65x39_caseless_msbs_mag";
+										count=6;
+										ammoLeft=30;
+									};
+									class Item1
+									{
+										name="6rnd_Smoke_Mag_lxWS";
+										count=4;
+										ammoLeft=6;
+									};
+									class Item2
+									{
+										name="6rnd_HE_Mag_lxWS";
+										count=2;
+										ammoLeft=6;
+									};
+									class Item3
+									{
+										name="6Rnd_12Gauge_Pellets";
+										count=7;
+										ammoLeft=6;
+									};
+									class Item4
+									{
+										name="11Rnd_45ACP_Mag";
+										count=1;
+										ammoLeft=15;
+									};
+									class Item5
+									{
+										name="gm_smokeshell_blk_gc";
+										count=4;
+										ammoLeft=1;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							radio="ItemRadio";
+							gps="ItemGPS";
+							goggles="G_Balaclava_blk";
+							headgear="lxWS_H_bmask_ghex";
+						};
 					};
 					id=3049;
 					type="B_ION_Survivor_lxWS";
@@ -42201,6 +42873,39 @@ class Mission
 						{
 							singleType="STRING";
 							value="Shock 2";
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item589
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5501.3589,28.192421,15026.02};
+				angles[]={0,0.64982098,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=3113;
+			type="I_supplyCrate_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ammoBox";
+					expression="[_this,_value] call bis_fnc_initAmmoBox;";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="[[[[],[]],[[],[]],[[],[]],[[""I_shield_backpack_lxWS""],[12]]],false]";
 						};
 					};
 				};
