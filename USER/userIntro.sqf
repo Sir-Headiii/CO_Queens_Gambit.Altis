@@ -23,8 +23,8 @@ GRAD_introCam_allowForJIP = false;							//Ob JIP Spieler das Intro sehen sollen
 */
 
 GRAD_introCam_shotDefinitions = [
-["CAMERA", 8, camPos_01, camTarget_01],
-["MOVE", 32, camPos_02, camTarget_01],
-["CAMERA", 5, camPos_02, camTarget_01],
-["BLEND", 5, [], 0, 3, 4]
+	["CAMERA", 8, camPos_01, camTarget_01],
+	["MOVE", 32, camPos_02, camTarget_01],
+	["CAMERA", 5, camPos_02, camTarget_01],
+	["BLEND", 5, [], 0, 3, 4]
 ];

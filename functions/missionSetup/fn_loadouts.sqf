@@ -3,7 +3,7 @@
 */
 
 #include "component.hpp"
-
+/*
 _loadoutFactionBlu = [missionConfigFile,"loadoutFactionBlu",""] call BIS_fnc_returnConfigEntry;
 _loadoutFactionOpf = [missionConfigFile,"loadoutFactionOpf",""] call BIS_fnc_returnConfigEntry;
 _loadoutFactionInd = [missionConfigFile,"loadoutFactionInd",""] call BIS_fnc_returnConfigEntry;
@@ -22,5 +22,9 @@ if (_loadoutFactionInd != "") then {
 if (_loadoutFactionCiv != "") then {
     ["CIV_F", _loadoutFactionCiv] call GRAD_Loadout_fnc_FactionSetLoadout;
 };
+*/
+
+["BLU_F", "headiiiBlufor"] call GRAD_Loadout_fnc_FactionSetLoadout;
+["OPF_F", "headiiiOpfor"] call GRAD_Loadout_fnc_FactionSetLoadout;
 
 GRAD_loadoutFactionSet = true;
